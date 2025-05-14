@@ -42,8 +42,8 @@ python predict_logic_depth.py
 ##  Example Output  
 | RTL File  | Signal  | Logic Depth | Fan-in | Fan-out | Timing Violation |
 |-----------|--------|------------|--------|--------|------------------|
-| `cpu_core.v` | `alu_op` | 18 | 3 | 2 | ❌ |
-| `alu.v` | `sum_out` | 15 | 2 | 2 | ✅ |
+| `cpu_core.v` | `alu_op` | 18 | 3 | 2 | Yes |
+| `alu.v` | `sum_out` | 15 | 2 | 2 | No |
 
 ## Model Performance  
 | **Model**        | **MAE (Lower is Better)** | **R² Score (Higher is Better)** |
